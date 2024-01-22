@@ -1,0 +1,70 @@
+@import "../sass/variables.scss";
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+    .titleBank {
+        color: $brand-color-red;
+        font-family: $heading-font;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -0.96px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style-type: none;
+        margin-left: 16px;
+        color: $dark-10;
+        font-family: $body-font;
+
+    }
+
+    .signup {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+
+        .abrirC {
+
+                background-color:$brand-color-red;
+                border-radius: 4px;
+                border-style: none;
+                box-sizing: border-box;
+                color: $white;
+                cursor: pointer;
+                display: inline-block;
+                font-family: $body-font ;
+                font-size: 18px;
+                font-weight: 500;
+                height: 40px;
+                padding: 12px 24px;                
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+
+            .abrirC:hover,
+            .abrirC:focus {
+                background-color: #F082AC;
+            }
+        }
+
+        .entrar{
+            font-family: $body-font;
+            color:$brand-color-red;
+
+        }
+    }
+
+
+}
