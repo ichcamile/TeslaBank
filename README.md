@@ -3,7 +3,7 @@
 Bem-vindo ao TeslaBank, o banco 100% digital para uma experiência financeira moderna e eficiente. 💻💰
 
 ## Tecnologias Utilizadas
-Este projeto foi desenvolvido em Vanilla JS com Vite para inicialização rápida, aproveitando o benefício do Hot Module Replacement (HMR) durante o desenvolvimento. O estilo foi estilizado com Sass para facilitar a manutenção e modularização do código CSS. 🚀🔧
+Este projeto foi desenvolvido em Vanilla JS com Vite para inicialização rápida, aproveitando o benefício do Hot Module Replacement (HMR) durante o desenvolvimento. O estilo foi criado com Sass para facilitar a manutenção e modularização do código CSS. 🚀🔧
 
 <img src="https://skillicons.dev/icons?i=git,vite,html,css,sass,js" />
 
