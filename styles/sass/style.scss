@@ -1,5 +1,12 @@
 @import "../sass/variables.scss";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header {
     display: flex;
     justify-content: space-evenly;
@@ -18,14 +25,26 @@ header {
 
     ul {
         display: flex;
+        gap: 16px;
     }
 
     li {
         list-style-type: none;
-        margin-left: 16px;
+        cursor: pointer;
         color: $dark-10;
         font-family: $body-font;
 
+        #contaDigital {
+            background-color: $support-06;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: .2s;
+        }
+
+        #contaDigital:hover {
+            transition: .2s;
+            background-color: $support-05;
+        }
     }
 
     .signup {
@@ -34,37 +53,93 @@ header {
         justify-content: center;
         align-items: center;
         padding: 32px;
+        gap: 20px;
+
+
+        .entrar {
+            font-weight: 500 !important;
+            font-family: $body-font;
+            color: $brand-color-red;
+
+        }
 
         .abrirC {
 
-                background-color:$brand-color-red;
-                border-radius: 4px;
-                border-style: none;
-                box-sizing: border-box;
-                color: $white;
-                cursor: pointer;
-                display: inline-block;
-                font-family: $body-font ;
-                font-size: 18px;
-                font-weight: 500;
-                height: 40px;
-                padding: 12px 24px;                
-                position: relative;
-                text-align: center;
-                text-decoration: none;
+            background-color: $brand-color-red;
+            border-radius: 4px;
+            border-style: none;
+            box-sizing: border-box;
+            color: $white;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: $body-font ;
+            font-size: 18px;
+            font-weight: 500;
+            height: 40px;
+            padding: 12px 24px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
 
             .abrirC:hover,
             .abrirC:focus {
                 background-color: #F082AC;
             }
         }
+    }
 
-        .entrar{
+
+}
+
+
+main {
+
+    .tituloPa {
+        .tituloMaior {
+            color: $dark-10;
+            font-family: $heading-font;
+            font-size: 88px;
+            font-style: normal;
+            font-weight: 500;
+
+        }
+        .tituloPa{
+            padding: 16px;
+        }
+
+        .tituloMenor {
+            color: $dark-10;
             font-family: $body-font;
-            color:$brand-color-red;
-
+            font-size: 24px;
+            font-weight: 500;
         }
     }
 
+}
+
+
+footer {
+    background-color: $support-06;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 32px;
+
+    .copyright {
+        font-family: $body-font;
+        font-size: 18px;
+    }
+
+    .power {
+        font-family: $heading-font;
+        font-weight: 700;
+        color: $brand-color-red;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        font-size: 16px;
+    }
 
 }

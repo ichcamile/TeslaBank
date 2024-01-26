@@ -7,6 +7,10 @@ Este projeto foi desenvolvido em Vanilla JS com Vite para inicialização rápid
 
 <img src="https://skillicons.dev/icons?i=git,vite,html,css,sass,js" />
 
+## Protótipo do Projeto
+Explore o protótipo no Figma: [Protótipo TeslaBank](https://www.figma.com/file/lZS4CJRHWSztAuVpT6pAxS/TeslaBank?node-id=1118:5&t=yCwblmYD9JJAar1Z-0
+)🎨✨
+
 ## Instalação
 
 ### Visualização com NPM
