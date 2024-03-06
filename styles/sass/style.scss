@@ -95,29 +95,73 @@ header {
 
 
 main {
+    .inicio {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 10px;
+    }
 
-    .tituloPa {
-        .tituloMaior {
-            color: $dark-10;
-            font-family: $heading-font;
-            font-size: 88px;
-            font-style: normal;
-            font-weight: 500;
 
+    .textoExplica {
+
+        margin: 50px 150px;
+
+        .tituloPa {
+            .tituloMaior {
+                color: $dark-10;
+                font-family: $heading-font;
+                font-size: 88px;
+                font-style: normal;
+                font-weight: 500;
+
+            }
+
+            .tituloPa {
+                padding: 16px;
+            }
+
+            .tituloMenor {
+                color: $dark-10;
+                font-family: $body-font;
+                font-size: 24px;
+                font-weight: 500;
+            }
         }
-        .tituloPa{
-            padding: 16px;
+    }
+
+
+
+
+    .topicosCondicoes {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+
+        .alinhamento {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 7px;
         }
 
-        .tituloMenor {
-            color: $dark-10;
-            font-family: $body-font;
-            font-size: 24px;
-            font-weight: 500;
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 10px;
+            padding: 5px;
+
+            p {
+                font-family: $body-font;
+            }
         }
     }
 
 }
+
+
+
 
 
 footer {

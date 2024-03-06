@@ -77,21 +77,51 @@ header .signup .abrirC .abrirC:focus {
   background-color: #F082AC;
 }
 
-main .tituloPa .tituloMaior {
+main .inicio {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 10px;
+}
+main .textoExplica {
+  margin: 50px 150px;
+}
+main .textoExplica .tituloPa .tituloMaior {
   color: #1A191E;
   font-family: "DM Sans", sans-serif;
   font-size: 88px;
   font-style: normal;
   font-weight: 500;
 }
-main .tituloPa .tituloPa {
+main .textoExplica .tituloPa .tituloPa {
   padding: 16px;
 }
-main .tituloPa .tituloMenor {
+main .textoExplica .tituloPa .tituloMenor {
   color: #1A191E;
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
+}
+main .topicosCondicoes {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+main .topicosCondicoes .alinhamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 7px;
+}
+main .topicosCondicoes li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+main .topicosCondicoes li p {
+  font-family: "Inter", sans-serif;
 }
 
 footer {
