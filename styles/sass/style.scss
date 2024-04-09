@@ -158,6 +158,61 @@ main {
         }
     }
 
+    .parteClicavel {
+        background-color: $background-color;
+        width: 99vw;
+        .textoPrinci {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin:10vw;
+
+
+            p {
+                font-family: $heading-font;
+                color: $brand-color-red;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            h2 {
+                font-family: $heading-font;
+                color: $dark-10;
+                font-weight: 500;
+                font-size: 56px;
+
+                #teslaBankNome {
+                    color: $brand-color-red;
+                }
+
+
+            }
+
+        }
+
+    .blocoDeCodigo{
+        border:1px solid;
+        width:250px;
+        height:294px;
+        padding: 20px;
+        margin: 5px;
+        background-color: $white;
+        
+        h3{
+            font-family: $heading-font;
+            font-weight: 500;
+
+        }
+        p{
+            margin-top: 15px 0 0 15px;
+            font-family: $body-font;
+            font-weight: 300;
+
+        }
+    }
+    }
+
 }
 
 

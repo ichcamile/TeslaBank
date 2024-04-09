@@ -123,6 +123,48 @@ main .topicosCondicoes li {
 main .topicosCondicoes li p {
   font-family: "Inter", sans-serif;
 }
+main .parteClicavel {
+  background-color: #FFF8F9;
+  width: 99vw;
+}
+main .parteClicavel .textoPrinci {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10vw;
+}
+main .parteClicavel .textoPrinci p {
+  font-family: "DM Sans", sans-serif;
+  color: #EB3850;
+  font-weight: 700;
+  font-size: 20px;
+}
+main .parteClicavel .textoPrinci h2 {
+  font-family: "DM Sans", sans-serif;
+  color: #1A191E;
+  font-weight: 500;
+  font-size: 56px;
+}
+main .parteClicavel .textoPrinci h2 #teslaBankNome {
+  color: #EB3850;
+}
+main .parteClicavel .blocoDeCodigo {
+  border: 1px solid;
+  width: 250px;
+  height: 294px;
+  padding: 20px;
+  margin: 5px;
+  background-color: #FFF;
+}
+main .parteClicavel .blocoDeCodigo h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+main .parteClicavel .blocoDeCodigo p {
+  margin-top: 15px 0 0 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
 
 footer {
   background-color: #F9F9F9;
