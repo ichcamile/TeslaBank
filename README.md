@@ -13,6 +13,30 @@ Explore o protótipo no Figma: [Protótipo TeslaBank](https://www.figma.com/file
 
 ## Instalação
 
+### SASS - Guia de Configuração do Compilador SASS
+
+Para iniciar o projeto, siga as etapas abaixo:
+
+### Instalação de Dependências
+
+Certifique-se de ter o Node.js e o npm instalados em seu sistema. Em seguida, instale as dependências do projeto, incluindo o compilador SASS, utilizando o npm:
+
+```bash
+npm install
+```
+
+### Configuração do Compilador SASS
+
+Após a instalação das dependências, você pode configurar o SASS para monitorar suas alterações e compilar automaticamente os arquivos .scss em .css. Para isso, execute o seguinte comando no terminal:
+
+```bash
+sass --watch sass/style.scss:css/style.css
+```
+
+Agora, sempre que você fizer alterações no arquivo `style.scss` dentro do diretório `sass`, o SASS irá compilar automaticamente o CSS resultante no diretório `css`.
+
+Certifique-se de ajustar os caminhos dos arquivos conforme necessário com base na estrutura do seu projeto.
+
 ### Visualização com NPM
 Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 
