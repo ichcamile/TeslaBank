@@ -161,12 +161,15 @@ main {
     .parteClicavel {
         background-color: $background-color;
         width: 99vw;
+        padding: 55px;
+
+
         .textoPrinci {
 
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin:10vw;
+            margin: 15px;
 
 
             p {
@@ -191,26 +194,63 @@ main {
 
         }
 
-    .blocoDeCodigo{
-        border:1px solid;
-        width:250px;
-        height:294px;
-        padding: 20px;
-        margin: 5px;
-        background-color: $white;
-        
-        h3{
-            font-family: $heading-font;
-            font-weight: 500;
+        .funcoesP {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            
+            .blocoDeCodigo {
+                width: 300px;
+                height: 294px;
+                padding: 25px;
+                margin: 5px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                background-color: $white;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
-        }
-        p{
-            margin-top: 15px 0 0 15px;
-            font-family: $body-font;
-            font-weight: 300;
+                h3 {
+                    font-family: $heading-font;
+                    font-weight: 500;
+                    margin-bottom: 10px;
 
+
+                }
+
+                p {
+                    margin: 10px 0px 10px 0px;
+                    font-family: $body-font;
+                    font-weight: 300;
+
+                }
+
+                .funcaoClica {
+
+                    background-color: $brand-color-red;
+                    border-radius: 4px;
+                    border-style: none;
+                    box-sizing: border-box;
+                    color: $white;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: $body-font;
+                    font-size: 12px;
+                    font-weight: 500;
+                    padding: 9px 25px;
+                    text-align: center;
+                    text-decoration: none;
+
+                    .funcaoClica:hover,
+                    .funcaoClica:focus {
+                        background-color: #F082AC;
+                    }
+                }
+            }
         }
-    }
+
     }
 
 }

@@ -126,12 +126,13 @@ main .topicosCondicoes li p {
 main .parteClicavel {
   background-color: #FFF8F9;
   width: 99vw;
+  padding: 55px;
 }
 main .parteClicavel .textoPrinci {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10vw;
+  margin: 15px;
 }
 main .parteClicavel .textoPrinci p {
   font-family: "DM Sans", sans-serif;
@@ -148,22 +149,52 @@ main .parteClicavel .textoPrinci h2 {
 main .parteClicavel .textoPrinci h2 #teslaBankNome {
   color: #EB3850;
 }
-main .parteClicavel .blocoDeCodigo {
-  border: 1px solid;
-  width: 250px;
-  height: 294px;
-  padding: 20px;
-  margin: 5px;
-  background-color: #FFF;
+main .parteClicavel .funcoesP {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
-main .parteClicavel .blocoDeCodigo h3 {
+main .parteClicavel .funcoesP .blocoDeCodigo {
+  width: 300px;
+  height: 294px;
+  padding: 25px;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+main .parteClicavel .funcoesP .blocoDeCodigo h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
+  margin-bottom: 10px;
 }
-main .parteClicavel .blocoDeCodigo p {
-  margin-top: 15px 0 0 15px;
+main .parteClicavel .funcoesP .blocoDeCodigo p {
+  margin: 10px 0px 10px 0px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
+}
+main .parteClicavel .funcoesP .blocoDeCodigo .funcaoClica {
+  background-color: #EB3850;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+main .parteClicavel .funcoesP .blocoDeCodigo .funcaoClica .funcaoClica:hover,
+main .parteClicavel .funcoesP .blocoDeCodigo .funcaoClica .funcaoClica:focus {
+  background-color: #F082AC;
 }
 
 footer {
